@@ -21,3 +21,54 @@ ul#horizontal-list li {
     width : 400px;
     height: 400px;
 }
+
+/* YourStyles.css */
+
+/* Styles for the main dashboard container */
+.dashboard-container {
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  /* Styles for the Quick Links section */
+  .quick-links-container {
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the Statistics section */
+  .statistics-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styles for the Charts section */
+  .charts-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Styles for individual charts */
+  /* Add specific styles for each chart as needed */
+  
+  /* Styles for the Ticket Information section */
+  .ticket-info-container {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Media query for responsiveness (adjust as needed) */
+  @media screen and (max-width: 768px) {
+    /* Example responsiveness for smaller screens */
+    .charts-container {
+      flex-direction: column;
+    }
+  
+    /* Add more responsive styles as needed */
+  }
+  
